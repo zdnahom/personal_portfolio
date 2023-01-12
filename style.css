@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Poppins";
+  font-family: 'Poppins',sans-serif;
 }
 
 main {
@@ -51,7 +51,7 @@ main {
 }
 
 .headline--info {
-  margin: 0px 237px;
+  margin: 0 237px;
 }
 
 .headline--info--name {
