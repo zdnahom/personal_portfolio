@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+main {
+}
+.portfolio-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+  
+}
+.portfolio-nav--logo {
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070FF;
+}
+.portfolio-nav--nav-options {
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.portfolio-nav--nav-options li {
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
+}
+
+.headline{
+    margin-top: 47px;
+    background: url("");
+}
