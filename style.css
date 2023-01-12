@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 main {
@@ -13,17 +13,15 @@ main {
   justify-content: space-around;
   align-items: center;
   height: 72px;
-  
 }
 .portfolio-nav--logo {
   font-weight: 700;
   font-size: 18px;
-  color: #6070FF;
+  color: #6070ff;
 }
 .portfolio-nav--nav-options {
   display: flex;
   list-style-type: none;
-  
 }
 
 .portfolio-nav--nav-options li {
@@ -33,7 +31,18 @@ main {
   color: #344563;
 }
 
-.headline{
-    margin-top: 47px;
-    background: url("");
+.headline {
+  margin-top: 47px;
+  /* background: url("Header\ bg@2x.png"); */
+  /* background-position: contain; */
+  background-color: red;
+  height: 721px;
+}
+.headline--name {
+    background-color: blue;
+  font-weight: 700;
+  font-size: 48px;
+  color: #091e42;
+  display: inline;
+  flex-wrap: wrap;
 }
