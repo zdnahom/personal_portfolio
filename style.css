@@ -21,7 +21,7 @@ main {
 }
 .portfolio-nav--nav-options {
   display: flex;
-  list-style-type: none;
+  list-style: none;
 }
 
 .portfolio-nav--nav-options li {
@@ -39,10 +39,30 @@ main {
   height: 721px;
 }
 .headline--name {
-    background-color: blue;
+  background-color: blue;
   font-weight: 700;
   font-size: 48px;
   color: #091e42;
   display: inline;
   flex-wrap: wrap;
+}
+.headline > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+.headline--social-media {
+  display: flex;
+  list-style: none;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: baseline;
+  width:171px;
+  /* align-items: center; */
+  padding: 0;
+}
+
+.headline--social-media img{
+  height: 15px;
 }
