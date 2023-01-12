@@ -30,9 +30,8 @@ main {
   font-weight: 500;
   font-size: 15px;
   color: #344563;
-  
 }
-.portfolio-nav--nav-options a{
+.portfolio-nav--nav-options a {
   text-decoration: none;
 }
 
@@ -44,7 +43,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 .headline--info {
   margin: 0px 237px;
