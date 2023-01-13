@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -55,8 +55,6 @@ body{
   font-size: 2.5em;
   color: #172b4d;
   margin-bottom: 0.75rem;
-  
-  
 }
 
 .headline--desc {
