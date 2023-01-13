@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.portfolio-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.portfolio-nav--logo {
+  font-size: 1.12em;
+  color: #6070ff;
+}
+
+.portfolio-nav--logo > a {
+  text-decoration: none;
+}
+
+.portfolio-nav--nav-options {
+  display: none;
+}
+
+.portfolio-nav--menu {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.portfolio-nav--menu img {
+  height: 1.5em;
+}
+
+.headline {
+  background-image: url("images/header-shapes_mobile.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 1.5rem;
+}
+
+.headline--name {
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #172b4d;
+  margin-bottom: 0.75rem;
+}
+
+.headline--desc {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #344563;
+  margin-bottom: 0.75rem;
+}
+
+.headline h3 {
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #7f8cff;
+  margin-bottom: 0.75rem;
+}
+
+.headline--social-media {
+  display: flex;
+  width: 10.6rem;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.headline--social-media > li {
+  list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+  .portfolio-nav--menu {
+    display: none;
+  }
+
+  .portfolio-nav--nav-options {
+    display: flex;
+    list-style: none;
+    margin-right: 10%;
+  }
+
+  .portfolio-nav--nav-options li {
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #344563;
+    padding-left: 20px;
+  }
+
+  .portfolio-nav--nav-options a {
+    text-decoration: none;
+  }
+
+  .portfolio-nav--nav-options a:hover {
+    color: #e62d83;
+  }
+
+  .headline {
+    background-image: url("images/Header_bg.png");
+    background-size: cover;
+  }
+
+  .headline--name {
+    font-size: 3em;
+  }
+
+  .headline--social-media {
+    margin-top: 11rem;
+  }
+}
