@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body{
+  font-family: "Poppins", sans-serif;
+}
+
 .portfolio-nav {
   display: flex;
   justify-content: space-between;
@@ -51,6 +55,8 @@
   font-size: 2.5em;
   color: #172b4d;
   margin-bottom: 0.75rem;
+  
+  
 }
 
 .headline--desc {
