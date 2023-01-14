@@ -198,7 +198,8 @@ section {
 }
 
 .about-myself-section {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 1.5rem;
   padding: 7.12rem 1.5rem;
   border-top-right-radius: 100px;
