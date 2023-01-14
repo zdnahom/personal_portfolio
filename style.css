@@ -1,26 +1,49 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   background-color: #f7f7f9;
-  /* background-color: #ff0000; */
 }
+
 section {
   background-color: #ffffff;
 }
 
+.portfolio-button {
+  background-color: inherit;
+  border-radius: 0.5rem;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font-size: 1.06em;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  padding: 0.75rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.portfolio-button:hover {
+  background-color: #6070ff;
+  color: #ffffff;
+}
+
+.portfolio-button:active {
+  background-color: #2230d2;
+  transform: translateY(4px);
+  color: #ffffff;
+}
+
 .portfolio-nav {
   background-color: #ffffff;
-  /* position:fixed; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 3rem;
   padding: 0 1.5rem 0 1.5rem;
-  /* z-index: 2; */
 }
 
 .portfolio-nav--logo {
@@ -47,7 +70,6 @@ section {
 }
 
 .headline {
-  /* background-color: #e62d83; */
   background-image: url("images/header-shapes_mobile.png");
   background-size: contain;
   background-position: top;
@@ -110,9 +132,11 @@ section {
   padding: 1rem;
   border-radius: 1rem;
 }
+
 .works-card--img {
   margin-bottom: 0.75rem;
 }
+
 .works-card--title {
   font-weight: 700;
   font-size: 2em;
@@ -120,6 +144,7 @@ section {
   color: #172b4d;
   margin-bottom: 0.75rem;
 }
+
 .works-card--info {
   display: flex;
   justify-content: space-between;
@@ -127,6 +152,7 @@ section {
   margin-right: 3.6rem;
   margin-bottom: 0.75rem;
 }
+
 .works-card--info li {
   list-style: none;
   font-size: 0.8em;
@@ -134,11 +160,11 @@ section {
   line-height: 1em;
   color: #7a869a;
 }
-.works-card--info > li.canopy {
- 
-  color: #344563;
 
+.works-card--info > li.canopy {
+  color: #344563;
 }
+
 .works-card--detail {
   font-weight: 400;
   font-size: 0.9em;
@@ -155,6 +181,7 @@ section {
   margin-bottom: 0.75rem;
   padding: 0;
 }
+
 .works-card--languages > li {
   list-style: none;
   padding: 0.25rem 0.75rem;
@@ -167,22 +194,127 @@ section {
   letter-spacing: 0.03em;
 }
 
-.works-card--project-button {
-  background-color: inherit;
-  width: 124px;
-  color: #396df2;
-  padding: 0.75rem 0;
-  font-weight: 500;
-  font-size: 1.06em;
-  line-height: 1.5rem;
-  letter-spacing: 0.03em;
-  border-radius: 0.5rem;
-  border: 1px solid #6070ff;
-
+.works-card button {
+  align-self: start;
 }
-.works-card--project-button:hover {
-  background-color: #6070FF;
-  color:#FFFFFF;
+
+.about-myself-section {
+  display: grid;
+  row-gap: 1.5rem;
+  /* padding: 7.12rem 1.5rem 0 1.5rem; */
+  padding: 7.12rem 1.5rem;
+  border-top-right-radius: 15%;
+}
+
+.about-myself--info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-myself--info--title {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 2.5em;
+  /* line-height: 3.25em; */
+  margin-bottom: 0.75rem;
+}
+
+.about-myself--info--desc {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #344563;
+  margin-bottom: 0.75rem;
+}
+
+.about-myself--info--social-media {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-myself--info--social-media > h3 {
+  font-size: 1em;
+  color: #7f8cff;
+  font-weight: 500;
+}
+
+.about-myself--info--social-media--logo {
+  display: flex;
+  justify-content: space-between;
+  align-self: start;
+  padding: 0;
+  list-style: none;
+}
+
+.about-myself--info--social-media--logo > li {
+  padding: 0.5rem;
+}
+
+.about-myself--info button {
+  align-self: start;
+}
+
+.about-myself--speciality {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.about-myself--speciality > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0.75rem;
+  border-bottom: 1px solid #f7f7f9;
+}
+
+.about-myself--speciality li:nth-child(1) {
+  border: none;
+}
+
+.about-myself--speciality h3 {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.about-myself--speciality button {
+  background-color: inherit;
+  border: none;
+  margin-right: 13px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.about-myself--speciality .programming-language {
+  padding: 0.75rem;
+  border: none;
+}
+
+.about-myself--speciality .programming-language > ul {
+  flex-grow: 1;
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-myself--speciality .programming-language > ul li {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  padding: 0.56rem 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.about-myself--speciality .programming-language span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 1rem;
 }
 
 @media screen and (min-width: 600px) {
