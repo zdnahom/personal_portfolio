@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .portfolio-button {
@@ -28,17 +28,17 @@ section {
 
 .portfolio-button:hover {
   background-color: #6070ff;
-  color: #ffffff;
+  color: #fff;
 }
 
 .portfolio-button:active {
   background-color: #2230d2;
   transform: translateY(4px);
-  color: #ffffff;
+  color: #fff;
 }
 
 .portfolio-nav {
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,7 +126,7 @@ section {
 }
 
 .works-card {
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -140,7 +140,6 @@ section {
 .works-card--title {
   font-weight: 700;
   font-size: 2em;
-  /* line-height: 44px; */
   color: #172b4d;
   margin-bottom: 0.75rem;
 }
@@ -201,7 +200,6 @@ section {
 .about-myself-section {
   display: grid;
   row-gap: 1.5rem;
-  /* padding: 7.12rem 1.5rem 0 1.5rem; */
   padding: 7.12rem 1.5rem;
   border-top-right-radius: 15%;
 }
@@ -215,7 +213,6 @@ section {
   color: #172b4d;
   font-weight: 700;
   font-size: 2.5em;
-  /* line-height: 3.25em; */
   margin-bottom: 0.75rem;
 }
 
