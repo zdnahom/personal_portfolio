@@ -288,7 +288,6 @@ section {
   line-height: 1.5;
 }
 
-
 .about-myself--speciality--option {
   list-style: none;
   padding: 0.75rem;
@@ -309,6 +308,109 @@ section {
   line-height: 20px;
   color: #253858;
   margin-left: 1rem;
+}
+
+.contact-section {
+  background-color: #fff;
+}
+
+.contact {
+  background-color: #6070ff;
+  background-image: url("images/contact-form-shapes-mobile.png");
+  background-size: auto 780px;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 6.43rem 1.5rem 0 1.5rem;
+  border-top-left-radius: 100px;
+}
+
+.contact h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.75em;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 1.75em;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.62rem;
+}
+
+input,
+textarea {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0.93rem 2.3rem 0.93rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 1.124rem;
+}
+
+input {
+  height: 3rem;
+  outline: none;
+}
+
+textarea {
+  height: 10.6rem;
+  outline: none;
+}
+
+.form button {
+  background-color: #ffffff;
+  height: 3rem;
+  align-self: flex-start;
+  padding: 0.75rem 1rem;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 1.06em;
+  line-height: 1.5em;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.5rem;
+  margin-bottom: 0.687rem;
+}
+
+.form button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form button:active {
+  background-color: #2230d2;
+  transform: translateY(4px);
+  color: #fff;
+}
+
+#name:valid,
+#email:valid,
+#msg:valid {
+  box-shadow: 0 0 5px 1px hsl(155, 54%, 42%);
+  border: 1px solid hsla(120, 100%, 25%, 0.506);
+}
+
+#name:focus:invalid,
+#email:focus:invalid,
+#msg:focus:invalid {
+  box-shadow: 0 0 5px 1px hsl(0, 100%, 50%);
+  border: 1px solid hsla(0, 100%, 50%, 0.48);
+}
+
+.home_indicator {
+  background-image: url("images/Light.png");
+  background-position: center;
+  height: 34px;
 }
 
 @media screen and (min-width: 600px) {
@@ -349,20 +451,4 @@ section {
   .headline--social-media {
     margin-top: 11rem;
   }
-}
-
-/* Form Validation Styles  */
-
-#name:valid,
-#email:valid,
-#msg:valid {
-  box-shadow: 0 0 5px 1px hsl(155, 54%, 42%);
-  border: 1px solid hsla(120, 100%, 25%, 0.506);
-}
-
-#name:focus:invalid,
-#email:focus:invalid,
-#msg:focus:invalid {
-  box-shadow: 0 0 5px 1px hsl(0, 100%, 50%);
-  border: 1px solid hsla(0, 100%, 50%, 0.48);
 }
