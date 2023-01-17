@@ -264,22 +264,17 @@ section {
 
 .about-myself--speciality > li {
   display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 0.75rem;
+  flex-direction: column;
   border-bottom: 1px solid #f7f7f9;
 }
 
-.about-myself--speciality li:nth-child(1) {
-  border: none;
+.about-myself--speciality--title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0.75rem;
 }
 
-.about-myself--speciality h3 {
-  font-weight: 500;
-  font-size: 1.25em;
-  line-height: 1.5;
-}
-
-.about-myself--speciality button {
+.about-myself--speciality--title button {
   background-color: inherit;
   border: none;
   margin-right: 13px;
@@ -287,18 +282,19 @@ section {
   cursor: pointer;
 }
 
-.about-myself--speciality .programming-language {
-  padding: 0.75rem;
-  border: none;
+.about-myself--speciality--title h3 {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 1.5;
 }
 
-.about-myself--speciality .programming-language > ul {
-  flex-grow: 1;
+
+.about-myself--speciality--option {
   list-style: none;
-  padding-left: 0;
+  padding: 0.75rem;
 }
 
-.about-myself--speciality .programming-language > ul li {
+.about-myself--speciality--option > li {
   background-color: #f7f7f9;
   display: flex;
   align-items: center;
@@ -307,7 +303,7 @@ section {
   border-radius: 0.5rem;
 }
 
-.about-myself--speciality .programming-language span {
+.about-myself--speciality--option span {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
