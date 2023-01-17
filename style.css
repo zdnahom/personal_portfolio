@@ -350,3 +350,40 @@ section {
     margin-top: 11rem;
   }
 }
+
+/* Form Validation Styles  */
+.contact-section input {
+  outline: none;
+ }
+  
+ input[type=text]:invalid:focus {
+  background-color: pink;
+  border: 1px solid red;
+ }
+  
+ input[type=email]:invalid:focus {
+  background-color: pink;
+  border: 1px solid red;
+ }
+  
+ input[type=text]:valid:focus {
+  background-color: white;
+  border: 1px solid #6070ff;
+ }
+  
+ input[type=email]:valid:focus {
+  background-color: white;
+  border: 1px solid #6070ff;
+ }
+  
+ input[type=text]:focus {
+  background-color: #9da3da;
+  border: 1px solid #6070ff;
+ }
+  
+ input[type=email]:focus {
+  background-color: #9da3da;
+  border: 1px solid #6070ff;
+ }
+ 
+ 
