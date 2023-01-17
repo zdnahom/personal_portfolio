@@ -361,11 +361,19 @@ textarea {
 input {
   height: 3rem;
   outline: none;
+  font-weight: 400;
+  font-size: 1.06em;
+  line-height: 1.25em;
+  color: #172b4d;
 }
 
 textarea {
   height: 10.6rem;
   outline: none;
+  font-weight: 400;
+  font-size: 0.937em;
+  line-height: 1.5rem;
+  color: #b3bac5;
 }
 
 .form button {
