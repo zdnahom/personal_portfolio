@@ -264,22 +264,17 @@ section {
 
 .about-myself--speciality > li {
   display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 0.75rem;
+  flex-direction: column;
   border-bottom: 1px solid #f7f7f9;
 }
 
-.about-myself--speciality li:nth-child(1) {
-  border: none;
+.about-myself--speciality--title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0.75rem;
 }
 
-.about-myself--speciality h3 {
-  font-weight: 500;
-  font-size: 1.25em;
-  line-height: 1.5;
-}
-
-.about-myself--speciality button {
+.about-myself--speciality--title button {
   background-color: inherit;
   border: none;
   margin-right: 13px;
@@ -287,18 +282,18 @@ section {
   cursor: pointer;
 }
 
-.about-myself--speciality .programming-language {
-  padding: 0.75rem;
-  border: none;
+.about-myself--speciality--title h3 {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 1.5;
 }
 
-.about-myself--speciality .programming-language > ul {
-  flex-grow: 1;
+.about-myself--speciality--option {
   list-style: none;
-  padding-left: 0;
+  padding: 0.75rem;
 }
 
-.about-myself--speciality .programming-language > ul li {
+.about-myself--speciality--option > li {
   background-color: #f7f7f9;
   display: flex;
   align-items: center;
@@ -307,12 +302,122 @@ section {
   border-radius: 0.5rem;
 }
 
-.about-myself--speciality .programming-language span {
+.about-myself--speciality--option span {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #253858;
   margin-left: 1rem;
+}
+
+.contact-section {
+  background-color: #fff;
+}
+
+.contact {
+  background-color: #6070ff;
+  background-image: url("images/contact-form-shapes-mobile.png");
+  background-size: auto 780px;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 6.43rem 1.5rem 0 1.5rem;
+  border-top-left-radius: 100px;
+}
+
+.contact h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.75em;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 1.75em;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.62rem;
+}
+
+input,
+textarea {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0.93rem 2.3rem 0.93rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 1.124rem;
+}
+
+input {
+  height: 3rem;
+  outline: none;
+  font-weight: 400;
+  font-size: 1.06em;
+  line-height: 1.25em;
+  color: #172b4d;
+}
+
+textarea {
+  height: 10.6rem;
+  outline: none;
+  font-weight: 400;
+  font-size: 0.937em;
+  line-height: 1.5rem;
+}
+
+.form button {
+  background-color: #fff;
+  height: 3rem;
+  align-self: flex-start;
+  padding: 0.75rem 1rem;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 1.06em;
+  line-height: 1.5em;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.5rem;
+  margin-bottom: 0.687rem;
+}
+
+.form button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form button:active {
+  background-color: #2230d2;
+  transform: translateY(4px);
+  color: #fff;
+}
+
+#name:valid,
+#email:valid,
+#msg:valid {
+  box-shadow: 0 0 5px 1px hsl(155, 54%, 42%);
+  border: 1px solid hsla(120, 100%, 25%, 0.506);
+}
+
+#name:focus:invalid,
+#email:focus:invalid,
+#msg:focus:invalid {
+  box-shadow: 0 0 5px 1px hsl(0, 100%, 50%);
+  border: 1px solid hsla(0, 100%, 50%, 0.48);
+}
+
+.home_indicator {
+  background-image: url("images/Light.png");
+  background-position: center;
+  height: 34px;
 }
 
 @media screen and (min-width: 600px) {
