@@ -116,7 +116,9 @@ section {
 .headline--social-media > li {
   list-style: none;
 }
-
+.headline--social-media li a img:hover{
+  transform: scale(2);
+}
 .works-section {
   background-color: inherit;
   display: grid;
@@ -255,7 +257,9 @@ section {
   padding: 0;
   list-style: none;
 }
-
+.about-myself--info--social-media--logo li a img:hover{
+  transform: rotate(90deg);
+}
 .about-myself--info--social-media--logo > li {
   padding: 0.5rem;
 }
