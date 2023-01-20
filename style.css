@@ -38,11 +38,12 @@ section {
 }
 
 .portfolio-nav {
+  width: 100%;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 3rem;
+  height: 42px;
   padding: 0 6.4%;
 }
 
@@ -72,11 +73,15 @@ section {
 }
 
 .headline {
-  display: flex;
-  padding-bottom: 1.375rem;
+  padding-bottom: 22px;
   border-bottom-left-radius: 100px;
 }
+
 .headline-container {
+  background-image: url("images/header-shapes_mobile.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 7.125rem 6.4%;
   display: flex;
   flex-direction: column;
@@ -108,8 +113,9 @@ section {
 
 .headline--social-media {
   display: flex;
-  width: 10.6rem;
+  width: 170px;
   justify-content: space-between;
+  align-items: baseline;
   padding: 0;
 }
 
@@ -325,14 +331,20 @@ section {
 
 .contact {
   background-color: #6070ff;
-  padding: 6.43rem 6.4% 0 6.4%;
   border-top-left-radius: 100px;
+  padding-top: 21px;
+}
+.contact-wrapper{
+background-image: url("images/contact-form-shapes-mobile.png");
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+padding: 82px 6.4% 0 6.4%;
 }
 .contact-container{
   display: flex;
   flex-direction: column;
   row-gap: 12px;
-  margin-bottom: 11px;
 }
 
 .contact-container h2 {
@@ -429,7 +441,9 @@ textarea {
 @media screen and (min-width: 768px) {
   .portfolio-nav {
     padding: 0 9.861%;
-    height: 4.5rem;
+    height: 72px;
+    position: fixed;
+    top:0;
   }
 
   .portfolio-nav--menu {
@@ -457,25 +471,27 @@ textarea {
   }
 
   .headline {
+    margin-top: 72px;
     padding: 47px 0.5% 76.54px 1.6%;
-    width: 100%;
   }
+
   .headline-container {
+    background-image: url("images/Header_bg.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 5.812rem;
-    padding-bottom: 0;
+    padding: 241px 18.033% 177px 16.129%;
   }
+
   .headline-container div {
     display: flex;
     flex-direction: column;
-    margin: 0 16.316% 0 17.847%;
   }
 
   .headline--name {
     font-size: 48px;
     line-height: 60px;
     color: #091e42;
+    margin-right: 50%;
   }
 
   .headline--desc {
@@ -487,10 +503,11 @@ textarea {
   .headline h3{
     font-size: 16px;
   }
-
-  .headline--social-media {
-    margin: 160px 0 177px 16.793%;
+  .headline--social-media img{
+    width: 100%;
+    height: auto;
   }
+
   .works-section{
     padding: 142px 9.8611% 142px 9.8611%;
     row-gap: 142px;
@@ -570,7 +587,13 @@ textarea {
   }
 
   .contact{
-    padding: 142px 22.222% 127px 22.222%;
+    padding: 79px 5.138% 48px 5.138%;
+  }
+
+  .contact-wrapper{
+    background-image: url("images/contact_form_background_shapes@2x.png");
+    background-size: contain;
+    padding: 63px 18.99% 79px 18.99%;
   }
 
   .contact-container{
