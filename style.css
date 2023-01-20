@@ -142,6 +142,14 @@ section {
   height: auto;
 }
 
+/* Collaboration Animation work by imran */
+
+.works-card--img:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 3px 4px #253858;
+  border-radius: 1rem;
+}
+
 .works-card--desc{
   display: flex;
   flex-direction: column;
