@@ -29,6 +29,7 @@ section {
 .portfolio-button:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.2);
 }
 
 .portfolio-button:active {
@@ -49,7 +50,12 @@ section {
 .portfolio-nav--logo {
   font-size: 1.12em;
   color: #6070ff;
-  
+  animation-name: rotateAnimation;
+  animation-duration: 4s;
+}
+@keyframes rotateAnimation{
+  from{transform: rotate(90deg);}
+  to{transform: rotate(360deg);}
 }
 
 .portfolio-nav--logo > a {
@@ -117,7 +123,7 @@ section {
   list-style: none;
 }
 .headline--social-media li a img:hover{
-  transform: scale(2);
+  transform: scale(0.7);
 }
 .works-section {
   background-color: inherit;
@@ -146,7 +152,7 @@ section {
 
 .works-card--img:hover {
   transform: scale(1.03);
-  box-shadow: 2px 2px 3px 4px #253858;
+  box-shadow: 2px 2px 8px 3px #253858;
   border-radius: 1rem;
 }
 
@@ -266,7 +272,7 @@ section {
   list-style: none;
 }
 .about-myself--info--social-media--logo li a img:hover{
-  transform: rotate(90deg);
+  transform: scale(0.7);
 }
 .about-myself--info--social-media--logo > li {
   padding: 0.5rem;
