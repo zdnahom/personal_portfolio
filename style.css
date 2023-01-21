@@ -54,9 +54,13 @@ section {
   animation-duration: 4s;
 }
 
-@keyframes rotateAnimation{
-  from{transform: rotate(90deg);}
-  to{transform: rotate(360deg);}
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .portfolio-nav--logo > a {
@@ -129,7 +133,7 @@ section {
   list-style: none;
 }
 
-.headline--social-media li a img:hover{
+.headline--social-media li a img:hover {
   transform: scale(0.7);
 }
 
@@ -273,7 +277,7 @@ section {
   padding: 0;
   list-style: none;
 }
-.about-myself--info--social-media--logo li a img:hover{
+.about-myself--info--social-media--logo li a img:hover {
   transform: scale(0.7);
 }
 .about-myself--info--social-media--logo > li {
