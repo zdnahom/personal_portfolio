@@ -29,6 +29,7 @@ section {
 .portfolio-button:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.2);
 }
 
 .portfolio-button:active {
@@ -50,6 +51,18 @@ section {
 .portfolio-nav--logo {
   font-size: 1.12em;
   color: #6070ff;
+  animation-name: rotateAnimation;
+  animation-duration: 4s;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(90deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .portfolio-nav--logo > a {
@@ -122,6 +135,10 @@ section {
   list-style: none;
 }
 
+.headline--social-media li a img:hover {
+  transform: scale(0.7);
+}
+
 .works-section {
   background-color: inherit;
   display: grid;
@@ -143,6 +160,12 @@ section {
   margin-bottom: 0.75rem;
   width: 100%;
   height: auto;
+}
+
+.works-card--img:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 8px 3px #253858;
+  border-radius: 1rem;
 }
 
 .works-card--desc {
@@ -257,6 +280,10 @@ section {
   align-self: start;
   padding: 0;
   list-style: none;
+}
+
+.about-myself--info--social-media--logo li a img:hover {
+  transform: scale(0.7);
 }
 
 .about-myself--info--social-media--logo > li {
@@ -404,11 +431,13 @@ textarea {
   line-height: 1.5em;
   border: 1px solid #cfd8dc;
   border-radius: 0.5rem;
+  transition-duration: 0.4s;
 }
 
 .form button:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.2);
 }
 
 .form button:active {
@@ -595,7 +624,7 @@ textarea {
     background-size: contain;
     padding: 63px 18.99% 79px 18.99%;
   }
-
+  
   .contact-container {
     align-items: center;
     margin-bottom: 0;
