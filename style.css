@@ -29,6 +29,7 @@ section {
 .portfolio-button:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.2);
 }
 
 .portfolio-button:active {
@@ -58,6 +59,7 @@ section {
   from {
     transform: rotate(90deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -279,9 +281,11 @@ section {
   padding: 0;
   list-style: none;
 }
+
 .about-myself--info--social-media--logo li a img:hover {
   transform: scale(0.7);
 }
+
 .about-myself--info--social-media--logo > li {
   padding: 0.5rem;
 }
@@ -427,11 +431,13 @@ textarea {
   line-height: 1.5em;
   border: 1px solid #cfd8dc;
   border-radius: 0.5rem;
+  transition-duration: 0.4s;
 }
 
 .form button:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.2);
 }
 
 .form button:active {
