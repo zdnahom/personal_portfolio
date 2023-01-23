@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -55,12 +56,22 @@
 ### Key Features <a name="key-features"></a>
 
 - **Shows you information about me**
-- **Displays live demo of my projects**
 - **Link to my social media**
-- **Future projects**
+- **Shows projects portfolio**
+- **Contact me part**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Live Demo -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://zdnahom.github.io/personal_portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -115,8 +126,10 @@ To run tests, run the following command: No test module for now.But it will be a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Make it mobile friendly**
+- **Displays live demo of my projects**
 -  **Add cool animations**
+- **show Future projects**
+- **Add javascript to make it dynamic**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
