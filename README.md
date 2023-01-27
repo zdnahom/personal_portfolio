@@ -17,6 +17,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Project Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -59,6 +60,7 @@
 - **Link to my social media**
 - **Shows projects portfolio**
 - **Contact me part**
+- **Responsive and works fine on desktops with different sizes and mobile phones**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,11 +69,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://zdnahom.github.io/personal_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Project walkthrough -->
+
+## Project walkthrough <a name="walkthrough"></a>
+- [video](https://www.loom.com/share/eb9658726b344a1b8db3aeca7ba663ba)
 
 <!-- GETTING STARTED -->
 
