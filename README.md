@@ -27,7 +27,7 @@
 # 📖 Nahom's Portfolio <a name="about-project"></a>
 
 
-**Nahom's Portfolio** is a portfolio website which shows you my works and some important informationabout me.
+**Nahom's Portfolio** is a portfolio website which shows you my works and some important information about me.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -142,8 +142,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project , please clone it and try it . I know you're going to love it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -152,8 +150,6 @@ If you like this project , please clone it and try it . I know you're going to l
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse giving me a knowledge to build an amazing project like this.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -161,8 +157,6 @@ I would like to thank Microverse giving me a knowledge to build an amazing proje
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **Can I fork the project and make a contribution?**
 
