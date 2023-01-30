@@ -95,7 +95,7 @@ section {
   height: 100vh;
   overflow: auto;
   z-index: 1;
-  background-color: rgba(96, 112, 255, 0.9);
+  background-color: rgba(96, 112, 255, 0.8);
   animation-name: menu_slide;
   animation-duration: 0.2s;
 }
@@ -109,7 +109,8 @@ section {
     right: 0;
   }
 }
-.mobile_menu .container{
+
+.mobile_menu .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -156,6 +157,7 @@ section {
   line-height: 44px;
   color: #fff;
 }
+
 .headline {
   padding-bottom: 22px;
   border-bottom-left-radius: 100px;
