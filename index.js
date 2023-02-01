@@ -9,7 +9,7 @@ const projects = [
     },
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/works_images/Snapshoot_Portfolio5.png',
+    image: 'images/works_images/detail.png',
     technologies: ['html', 'javascript', 'css'],
     live: '',
     source: '',
@@ -108,8 +108,8 @@ function openDetailWindow(id) {
     .map((technology) => `<li>${technology}</li>`)
     .join('');
   const detailContainer = document.querySelector('.detail-container');
-  const detail = document.querySelector('.detail-container > div');
-  detail.innerHTML = `
+  detailContainer.innerHTML = `
+  <div>
   <div class="detail-card">
   <div class="upper-part">
   <div class="first">
@@ -130,7 +130,7 @@ function openDetailWindow(id) {
   <li>${openedDetail.info.date}</li>
   </ul>
 </div>
-<img src="images/works_images/detail.png" alt="project pic" />
+<img src=${openedDetail.image} alt="project pic" />
 <div class="bottom-part">
   <p class="works-card--detail">
     ${openedDetail.description}
@@ -154,6 +154,7 @@ function openDetailWindow(id) {
 </div>
 </div>
 <div class="home_indicator"></div>
+</div>
 </div>`;
   detailContainer.classList.remove('hide-detail');
 }

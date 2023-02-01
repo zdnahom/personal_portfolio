@@ -323,7 +323,6 @@ section {
   height: 100vh;
   z-index: 10;
   background-color: rgba(193, 199, 208, 0.7);
-
   /* backdrop-filter: blur(6px); */
 }
 
