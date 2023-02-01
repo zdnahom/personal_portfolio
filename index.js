@@ -12,8 +12,8 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     image: 'images/works_images/detail.png',
     technologies: ['html', 'javascript', 'css'],
-    live: '',
-    source: '',
+    live: '#',
+    source: '#',
   },
   {
     id: '2',
@@ -142,14 +142,14 @@ function openDetailWindow(id) {
     </ul>
     <hr />
     <div class="buttons-container">
-      <button class="portfolio-button" type="button">
+      <a class="portfolio-button" href=${openedDetail.live}>
         <span>See live</span
         ><img src="images/live_icon.png" alt="live icon" />
-      </button>
-      <button class="portfolio-button" type="button">
+      </a>
+      <a class="portfolio-button" href=${openedDetail.source}>
         <span>See source</span
         ><img src="images/source_icon.png" alt="source icon" />
-      </button>
+      </a>
     </div>
   </div>
 </div>
