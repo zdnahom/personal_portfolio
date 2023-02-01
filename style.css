@@ -39,6 +39,8 @@ section {
 }
 
 .portfolio-nav {
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: #fff;
   display: flex;
@@ -95,9 +97,10 @@ section {
   height: 100vh;
   overflow: auto;
   z-index: 1;
-  background-color: rgba(96, 112, 255, 0.8);
+  background-color: rgba(96, 112, 255, 0.7);
   animation-name: menu_slide;
   animation-duration: 0.2s;
+  backdrop-filter: blur(6px);
 }
 
 @keyframes menu_slide {
@@ -159,6 +162,7 @@ section {
 }
 
 .headline {
+  margin-top: 48px;
   padding-bottom: 22px;
   border-bottom-left-radius: 100px;
 }
@@ -270,7 +274,7 @@ section {
   color: #7a869a;
 }
 
-.works-card--info > li.canopy {
+.works-card--info > li:nth-child(1) {
   color: #344563;
 }
 
@@ -304,6 +308,97 @@ section {
 .works-card button {
   align-self: start;
   margin-top: 12px;
+}
+
+.hide-detail {
+  display: none;
+}
+
+.detail-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(193, 199, 208, 0.7);
+
+  /* backdrop-filter: blur(6px); */
+}
+
+.detail-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  padding: 16px;
+}
+
+.detail-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  row-gap: 12px;
+}
+
+.upper-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-part .first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-part .first button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.bottom-part > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.bottom-part ul {
+  flex-wrap: wrap;
+}
+
+.bottom-part hr {
+  border: 1px solid #ebecf0;
+}
+
+.bottom-part .buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons-container button {
+  display: flex;
+  height: 48px;
+  padding: 12px 22px;
+  align-items: center;
+}
+
+.buttons-container button:nth-child(2) {
+  padding: 12px 14px;
+}
+
+.buttons-container button span {
+  margin-right: 10px;
 }
 
 .about-myself-section {
@@ -544,8 +639,6 @@ textarea {
   .portfolio-nav {
     padding: 0 9.861%;
     height: 72px;
-    position: fixed;
-    top: 0;
   }
 
   .portfolio-nav--menu {
@@ -649,6 +742,36 @@ textarea {
 
   .works-card--desc button {
     margin-top: 16px;
+  }
+
+  .detail-container {
+    padding: 77px 9.8611%;
+  }
+
+  .detail-card {
+    padding: 24px;
+  }
+
+  .detail-card > img {
+    width: 100%;
+  }
+
+  .upper-part {
+    margin-bottom: 16px;
+  }
+
+  .bottom-part {
+    flex-direction: row;
+    margin-top: 47px;
+    column-gap: 2.16%;
+  }
+
+  .bottom-part p {
+    width: 69.2%;
+  }
+
+  .bottom-part > div {
+    flex: 1;
   }
 
   .about-myself-section {
