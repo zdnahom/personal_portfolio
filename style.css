@@ -279,7 +279,6 @@ section {
   font-size: 0.9em;
   line-height: 24px;
   color: #344563;
-  padding-right: 3rem;
 }
 
 .works-card--languages {
@@ -551,23 +550,15 @@ textarea {
 
 .detail-container {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  overflow: auto;
-  width: 100%;
-  height: 100vh;
   z-index: 1;
-  background-color: rgba(193, 199, 208, 0.7);
-  backdrop-filter: blur(6px);
-}
-
-.detail-container > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: rgba(193, 199, 208, 0.4);
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  padding: 16px;
+  top: 0;
+  overflow: auto;
+  padding: 16px 4.266% 50px 4.266%;
+
+  /* backdrop-filter: blur(6px); */
 }
 
 .detail-card {
@@ -613,11 +604,14 @@ textarea {
 
 .bottom-part hr {
   border: 1px solid #ebecf0;
+  margin-top: 9px;
 }
 
 .bottom-part .buttons-container {
   display: flex;
   justify-content: space-evenly;
+  column-gap: 12px;
+  margin-top: 9px;
 }
 
 .bottom-part .buttons-container a {
@@ -745,13 +739,12 @@ textarea {
     margin-top: 16px;
   }
 
-  .detail-container > div {
+  .detail-container {
     padding: 77px 9.8611%;
-    padding-bottom: 200px;
   }
 
   .detail-card {
-    padding: 24px;
+    padding: 24px 2.07% 50px 2.07%;
   }
 
   .detail-card > img {
@@ -766,15 +759,17 @@ textarea {
   .bottom-part {
     flex-direction: row;
     margin-top: 47px;
-    column-gap: 2.16%;
+    justify-content: space-between;
+    column-gap: 5%;
   }
 
   .bottom-part p {
-    width: 65.2%;
+    width: 65%;
   }
 
   .bottom-part > div {
-    flex: 1;
+    align-self: flex-start;
+    width: 35%;
   }
 
   .about-myself-section {

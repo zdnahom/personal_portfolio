@@ -10,7 +10,7 @@ const projects = [
     },
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/works_images/detail.png',
+    image: 'images/works_images/Snapshoot_Portfolio5.png',
     technologies: ['html', 'javascript', 'css'],
     live: '#',
     source: '#',
@@ -110,7 +110,6 @@ function openDetailWindow(id) {
     .join('');
   const detailContainer = document.querySelector('.detail-container');
   detailContainer.innerHTML = `
-  <div>
   <div class="detail-card">
   <div class="upper-part">
   <div class="first">
@@ -131,11 +130,11 @@ function openDetailWindow(id) {
   <li>${openedDetail.info.date}</li>
   </ul>
 </div>
-<img src=${openedDetail.image} alt="project pic" />
+<img src="images/works_images/detail.png" alt="project pic" />
 <div class="bottom-part">
   <p class="works-card--detail">
-    ${openedDetail.description}
-  </p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release.
+ </p>
   <div>
     <ul class="works-card--languages">
       ${technologies}
@@ -154,9 +153,8 @@ function openDetailWindow(id) {
   </div>
 </div>
 </div>
-<div class="home_indicator"></div>
 </div>
-</div>`;
+`;
   detailContainer.classList.remove('hide-detail');
 }
 function show() {
