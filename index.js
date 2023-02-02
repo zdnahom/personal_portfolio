@@ -157,16 +157,38 @@ function openDetailWindow(id) {
 `;
   detailContainer.classList.remove('hide-detail');
 }
+
 function show() {
   mobileMenu.style.display = 'block';
 }
 function close() {
   mobileMenu.style.display = 'none';
 }
+
 function closeDetail() {
   const detailContainer = document.querySelector('.detail-container');
   detailContainer.classList.add('hide-detail');
 }
+
+function validateEmail(input) {
+  const isInLowerCase = input.value.split('').every((letter) => letter === letter.toLowerCase());
+  return isInLowerCase;
+}
+
+const form = document.querySelector('.form');
+const { email } = form.elements;
+const error = email.parentNode.querySelector('span');
+const EMAIL_INVALID = 'Invalid email : The content of the email field has to be in lower case';
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (validateEmail(email)) {
+    error.textContent = '';
+    form.submit();
+  } else {
+    error.textContent = EMAIL_INVALID;
+  }
+});
+
 menuButton.addEventListener('click', show);
 closeButton.addEventListener('click', close);
 menuOptions.forEach((option) => {
