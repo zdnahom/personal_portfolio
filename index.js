@@ -61,10 +61,24 @@ const projects = [
     source: 'https://github.com/zdnahom/personal_portfolio',
   },
 ];
+
+const formData={
+  full_name:"",
+  email:"",
+  message:"",
+}
+
+
 const mobileMenu = document.querySelector('.mobile_menu');
 const menuButton = document.querySelector('.portfolio-nav--menu');
 const closeButton = document.querySelector('.mobile_menu button');
 const menuOptions = document.querySelectorAll('.mobile_menu-content a');
+const form = document.querySelector('.form');
+const { full_name,email,msg } = form.elements;
+
+const error = email.parentNode.querySelector('span');
+const EMAIL_INVALID = 'Invalid email : The content of the email field has to be in lower case';
+
 function createCard(data) {
   data.forEach((item) => {
     const technologies = item.technologies
@@ -103,6 +117,7 @@ function createCard(data) {
     document.getElementById('portfolio').appendChild(card);
   });
 }
+
 function openDetailWindow(id) {
   const openedDetail = projects.filter((item) => item.id === id.toString())[0];
   const technologies = openedDetail.technologies
@@ -132,7 +147,7 @@ function openDetailWindow(id) {
 </div>
 <img src="images/works_images/detail.png" alt="project pic" />
 <div class="bottom-part">
-  <p class="works-card--detail">
+  <p>
   ${openedDetail.description}
  </p>
   <div>
@@ -175,12 +190,10 @@ function validateEmail(input) {
   return isInLowerCase;
 }
 
-const form = document.querySelector('.form');
-const { email } = form.elements;
-const error = email.parentNode.querySelector('span');
-const EMAIL_INVALID = 'Invalid email : The content of the email field has to be in lower case';
+
+
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
+  event.preventDefault(); 
   if (validateEmail(email)) {
     error.textContent = '';
     form.submit();
@@ -188,6 +201,7 @@ form.addEventListener('submit', (event) => {
     error.textContent = EMAIL_INVALID;
   }
 });
+
 
 menuButton.addEventListener('click', show);
 closeButton.addEventListener('click', close);
