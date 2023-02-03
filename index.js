@@ -228,4 +228,4 @@ closeButton.addEventListener('click', close);
 menuOptions.forEach((option) => {
   option.addEventListener('click', close);
 });
-createCard(projects);
+// createCard(projects);
