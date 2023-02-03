@@ -62,19 +62,18 @@ const projects = [
   },
 ];
 
-const formData={
-  full_name:"",
-  email:"",
-  message:"",
-}
-
+const formData = {
+  fullName: '',
+  email: '',
+  message: '',
+};
 
 const mobileMenu = document.querySelector('.mobile_menu');
 const menuButton = document.querySelector('.portfolio-nav--menu');
 const closeButton = document.querySelector('.mobile_menu button');
 const menuOptions = document.querySelectorAll('.mobile_menu-content a');
 const form = document.querySelector('.form');
-const { full_name,email,msg } = form.elements;
+const { fullName, email, msg } = form.elements;
 
 const error = email.parentNode.querySelector('span');
 const EMAIL_INVALID = 'Invalid email : The content of the email field has to be in lower case';
@@ -190,25 +189,25 @@ function validateEmail(input) {
   return isInLowerCase;
 }
 
-function getFormData(){
-  return JSON.parse(localStorage.getItem('formData'))
+function getFormData() {
+  return JSON.parse(localStorage.getItem('formData'));
 }
 
-function storeFormData(){
-  formData.full_name=full_name.value
-  formData.email=email.value
-  formData.message=msg.value
-  localStorage.setItem('formData',JSON.stringify(formData))
+function storeFormData() {
+  formData.fullName = fullName.value;
+  formData.email = email.value;
+  formData.message = msg.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
 }
 
-function setForm(){
-    full_name.value=getFormData().full_name
-    email.value=getFormData().email
-    msg.value=getFormData().message
+function setForm() {
+  fullName.value = getFormData().fullName;
+  email.value = getFormData().email;
+  msg.value = getFormData().message;
 }
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault(); 
+  event.preventDefault();
   if (validateEmail(email)) {
     error.textContent = '';
     form.submit();
@@ -217,13 +216,13 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-if(localStorage.getItem('formData')){
-  setForm()
+if (localStorage.getItem('formData')) {
+  setForm();
 }
 
-full_name.oninput=storeFormData
-email.oninput=storeFormData
-msg.oninput=storeFormData
+fullName.oninput = storeFormData;
+email.oninput = storeFormData;
+msg.oninput = storeFormData;
 menuButton.addEventListener('click', show);
 closeButton.addEventListener('click', close);
 menuOptions.forEach((option) => {
