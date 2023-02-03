@@ -275,10 +275,13 @@ section {
 }
 
 .works-card--detail {
+  text-overflow: ellipsis;
   font-weight: 400;
   font-size: 0.9em;
   line-height: 24px;
   color: #344563;
+  height: 100px;
+  overflow: hidden;
 }
 
 .works-card--languages {
@@ -599,6 +602,13 @@ textarea {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+}
+
+.bottom-part p {
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 24px;
+  color: #344563;
 }
 
 .bottom-part ul {
