@@ -1,90 +1,76 @@
 /* eslint no-unused-vars: 0 */
 const projects = [
   {
-    id: '1',
-    name: 'Tonic',
+    id: "1",
+    name: "Health Conference",
     info: {
-      company_name: 'CANOPY',
-      position: 'Back End Dev',
-      date: '2015',
+      company_name: "Microverse",
+      position: "Front-end Dev",
+      date: "2023",
     },
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release.",
-    image: 'images/works_images/Snapshoot_Portfolio5.png',
-    technologies: ['html', 'javascript', 'css'],
-    live: 'https://zdnahom.github.io/personal_portfolio/',
-    source: 'https://github.com/zdnahom/personal_portfolio',
+      "This project is a simple conference app where users can check when and where the conference is going to take place, they can check the main events, and also get information about past summits. Built using HTML, CSS(bootstrap), and JavaScript.",
+    image: "images/conference.PNG",
+    technologies: ["html", "javascript", "css"],
+    live: "https://zdnahom.github.io/health-conference/",
+    source: "https://github.com/zdnahom/health-conference",
   },
   {
-    id: '2',
-    name: 'Multi-Post Stories',
+    id: "2",
+    name: "Awesome Books",
     info: {
-      company_name: 'FACEBOOK',
-      position: 'Full Stack Dev',
-      date: '2015',
+      company_name: "Microverse",
+      position: "Front-end Dev",
+      date: "2023",
     },
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release.",
-    image: 'images/works_images/desktop_images/desktop1.png',
-    technologies: ['html', 'javascript', 'css', 'python'],
-    live: 'https://zdnahom.github.io/personal_portfolio/',
-    source: 'https://github.com/zdnahom/personal_portfolio',
+      "Awesome_books_ES6 is a SPA(single page app) that is built by following JavaScript ES6 best practices. The website allows a user to add and remove books to the books collection and also can navigate to different parts using navigation links.",
+    image: "images/awesome.PNG",
+    technologies: ["html", "javascript(ES6)", "css"],
+    live: "https://zdnahom.github.io/awesome_books_ES6/",
+    source: "https://github.com/zdnahom/awesome_books_ES6",
   },
   {
-    id: '3',
-    name: 'Facebook 360',
+    id: "3",
+    name: "Todo List",
     info: {
-      company_name: 'FACEBOOK',
-      position: 'Back End Dev',
-      date: '2015',
+      company_name: "Microverse",
+      position: "Front-end Dev",
+      date: "2023",
     },
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release.",
-    image: 'images/works_images/desktop_images/desktop2.png',
-    technologies: ['html', 'javascript', 'css'],
-    live: 'https://zdnahom.github.io/personal_portfolio/',
-    source: 'https://github.com/zdnahom/personal_portfolio',
-  },
-  {
-    id: '4',
-    name: 'Uber Navigation',
-    info: {
-      company_name: 'Uber',
-      position: 'Back End Dev',
-      date: '2015',
-    },
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release.",
-    image: 'images/works_images/desktop_images/desktop3.png',
-    technologies: ['html', 'javascript', 'css'],
-    live: 'https://zdnahom.github.io/personal_portfolio/',
-    source: 'https://github.com/zdnahom/personal_portfolio',
+      "This project is a web application where users can add, remove, and update to-do tasks. Users can also mark tasks that they completed as completed tasks and clear them from their task collection. Built using HTML, CSS, JavaScript(ES6), and WebPack.",
+    image: "images/todolist.PNG",
+    technologies: ["html", "javascript(ES6)", "css","Webpack"],
+    live: "https://zdnahom.github.io/to-do-list/",
+    source: "https://github.com/zdnahom/to-do-list",
   },
 ];
 
 const formData = {
-  fullName: '',
-  email: '',
-  message: '',
+  fullName: "",
+  email: "",
+  message: "",
 };
 
-const mobileMenu = document.querySelector('.mobile_menu');
-const menuButton = document.querySelector('.portfolio-nav--menu');
-const closeButton = document.querySelector('.mobile_menu button');
-const menuOptions = document.querySelectorAll('.mobile_menu-content a');
-const form = document.querySelector('.form');
+const mobileMenu = document.querySelector(".mobile_menu");
+const menuButton = document.querySelector(".portfolio-nav--menu");
+const closeButton = document.querySelector(".mobile_menu button");
+const menuOptions = document.querySelectorAll(".mobile_menu-content a");
+const form = document.querySelector(".form");
 const { fullName, email, msg } = form.elements;
 
-const error = email.parentNode.querySelector('span');
-const EMAIL_INVALID = 'Invalid email : The content of the email field has to be in lower case';
+const error = email.parentNode.querySelector("span");
+const EMAIL_INVALID =
+  "Invalid email : The content of the email field has to be in lower case";
 
 function createCard(data) {
   data.forEach((item) => {
     const technologies = item.technologies
       .map((technology) => `<li>${technology}</li>`)
-      .join('');
-    const card = document.createElement('div');
-    card.className = 'works-card';
+      .join("");
+    const card = document.createElement("div");
+    card.className = "works-card";
     card.innerHTML = `
     <img
       class="works-card--img"
@@ -113,7 +99,7 @@ function createCard(data) {
       <button class="portfolio-button" type="button" onclick="openDetailWindow(${item.id})">See Project</button>
     </div>
     `;
-    document.getElementById('portfolio').appendChild(card);
+    document.getElementById("portfolio").appendChild(card);
   });
 }
 
@@ -121,8 +107,8 @@ function openDetailWindow(id) {
   const openedDetail = projects.filter((item) => item.id === id.toString())[0];
   const technologies = openedDetail.technologies
     .map((technology) => `<li>${technology}</li>`)
-    .join('');
-  const detailContainer = document.querySelector('.detail-container');
+    .join("");
+  const detailContainer = document.querySelector(".detail-container");
   detailContainer.innerHTML = `
   <div class="detail-card">
   <div class="upper-part">
@@ -144,7 +130,7 @@ function openDetailWindow(id) {
   <li>${openedDetail.info.date}</li>
   </ul>
 </div>
-<img src="images/works_images/detail.png" alt="project pic" />
+<img src=${openedDetail.image} alt="project pic" />
 <div class="bottom-part">
   <p>
   ${openedDetail.description}
@@ -169,35 +155,37 @@ function openDetailWindow(id) {
 </div>
 </div>
 `;
-  detailContainer.classList.remove('hide-detail');
+  detailContainer.classList.remove("hide-detail");
 }
 
 function show() {
-  mobileMenu.style.display = 'block';
+  mobileMenu.style.display = "block";
 }
 function close() {
-  mobileMenu.style.display = 'none';
+  mobileMenu.style.display = "none";
 }
 
 function closeDetail() {
-  const detailContainer = document.querySelector('.detail-container');
-  detailContainer.classList.add('hide-detail');
+  const detailContainer = document.querySelector(".detail-container");
+  detailContainer.classList.add("hide-detail");
 }
 
 function validateEmail(input) {
-  const isInLowerCase = input.value.split('').every((letter) => letter === letter.toLowerCase());
+  const isInLowerCase = input.value
+    .split("")
+    .every((letter) => letter === letter.toLowerCase());
   return isInLowerCase;
 }
 
 function getFormData() {
-  return JSON.parse(localStorage.getItem('formData'));
+  return JSON.parse(localStorage.getItem("formData"));
 }
 
 function storeFormData() {
   formData.fullName = fullName.value;
   formData.email = email.value;
   formData.message = msg.value;
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem("formData", JSON.stringify(formData));
 }
 
 function setForm() {
@@ -206,26 +194,26 @@ function setForm() {
   msg.value = getFormData().message;
 }
 
-form.addEventListener('submit', (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
   if (validateEmail(email)) {
-    error.textContent = '';
+    error.textContent = "";
     form.submit();
   } else {
     error.textContent = EMAIL_INVALID;
   }
 });
 
-if (localStorage.getItem('formData')) {
+if (localStorage.getItem("formData")) {
   setForm();
 }
 
 fullName.oninput = storeFormData;
 email.oninput = storeFormData;
 msg.oninput = storeFormData;
-menuButton.addEventListener('click', show);
-closeButton.addEventListener('click', close);
+menuButton.addEventListener("click", show);
+closeButton.addEventListener("click", close);
 menuOptions.forEach((option) => {
-  option.addEventListener('click', close);
+  option.addEventListener("click", close);
 });
 createCard(projects);
