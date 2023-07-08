@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://zdnahom.github.io/personal_portfolio/)
+- [Live Demo Link](https://zd-portfolio.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
