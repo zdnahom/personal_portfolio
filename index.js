@@ -25,7 +25,7 @@ const projects = [
     },
     description:
       "Expense Planner is a mobile web application built with Ruby on Rails that helps users effectively manage their budget. It allows users to register, log in, and securely track their transactions by associating them with categories. Users can view the total amount spent in each category, add new transactions, and create custom categories. With Expense Planner, users can gain insights into their spending habits and maintain financial control.",
-    image: "images/expense-planner.png",
+    image: "images/expense-planner.PNG",
     technologies: ["html", "Ruby on rails", "tailwind css"],
     live: "https://expense-planner.onrender.com/",
     source: "https://github.com/zdnahom/budget-app",
