@@ -17,6 +17,36 @@ const projects = [
   },
   {
     id: "2",
+    name: "Expense Planner",
+    info: {
+      company_name: "Microverse",
+      position: "Fullstack Dev",
+      date: "2023",
+    },
+    description:
+      "Expense Planner is a mobile web application built with Ruby on Rails that helps users effectively manage their budget. It allows users to register, log in, and securely track their transactions by associating them with categories. Users can view the total amount spent in each category, add new transactions, and create custom categories. With Expense Planner, users can gain insights into their spending habits and maintain financial control.",
+    image: "images/expense-planner.png",
+    technologies: ["html", "Ruby on rails", "tailwind css"],
+    live: "https://expense-planner.onrender.com/",
+    source: "https://github.com/zdnahom/budget-app",
+  },
+  {
+    id: "3",
+    name: "Trading App",
+    info: {
+      company_name: "Microverse",
+      position: "Front-end Dev",
+      date: "2023",
+    },
+    description:
+      "The Forex Trading App is a mobile web application built using react js which provides real-time information on currency pairs, empowering users to make informed trading decisions. Track exchange rates, view price charts, and set personalized alerts for potential trading opportunities. Stay connected to the currency markets and achieve your trading goals with ease.",
+    image: "images/forex-project.PNG",
+    technologies: ["react js", "redux","css","webpack"],
+    live: "https://forex-trading.onrender.com/",
+    source: "https://github.com/zdnahom/trading-app",
+  },
+  {
+    id: "4",
     name: "Awesome Books",
     info: {
       company_name: "Microverse",
@@ -31,7 +61,7 @@ const projects = [
     source: "https://github.com/zdnahom/awesome_books_ES6",
   },
   {
-    id: "3",
+    id: "5",
     name: "Todo List",
     info: {
       company_name: "Microverse",
